@@ -4,12 +4,11 @@ body{
   background-image: url("Oval_oxhoyi.svg");
   background-repeat: no-repeat;
   background-position:center top;
-  background-size: 50%;
+  background-size: 100%;
  
 }
 .container{
-  width:70%;
-  min-height:400px;
+  width:80%;
   display: grid;
   grid-template-columns:300px 1fr;
   grid-template-rows:auto 1fr 40px;
@@ -189,6 +188,7 @@ background-color: #918bed;
 .container{
   width:100%;
   min-height: 300px;
+  height: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: 50px auto 1fr auto;
   grid-template-areas:
